@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Kimiko1.moc3",
+		"Textures": [
+			"Kimiko1.1024/texture_00.png"
+		],
+		"Physics": "Kimiko1.physics3.json",
+		"DisplayInfo": "Kimiko1.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
