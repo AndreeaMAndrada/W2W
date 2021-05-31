@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float PlayerSpeed;
+    [SerializeField]public float PlayerSpeed;
+    public static float sped;
+    
     private float moveInput;
     public float jumpForce;
+    public float Hp;
     private Animator anim;//animator declarinf
     private Rigidbody2D myRigidbody; //declares the rigid body
 
@@ -28,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         extraJumps = extraJumpsValue; 
         anim = GetComponent<Animator>();//declare the animator once as it only Starts
         myRigidbody = GetComponent<Rigidbody2D>(); //declare the rigid body
@@ -113,7 +117,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
-
+    public void BoostSpeed(float sped)
+    {
+        PlayerSpeed = +sped;
+    }
     
     
 }

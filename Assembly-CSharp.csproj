@@ -194,11 +194,13 @@
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Expression\CubismExpressionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Motion\CubismMotionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" />
-    <Compile Include="Assets\ScoreManager.cs" />
+    <Compile Include="Assets\Scrips\Boost.cs" />
     <Compile Include="Assets\Scrips\CameraControler.cs" />
     <Compile Include="Assets\Scrips\Enemy.cs" />
+    <Compile Include="Assets\Scrips\Inventory.cs" />
     <Compile Include="Assets\Scrips\PlayerMovement.cs" />
     <Compile Include="Assets\Scrips\Projectile.cs" />
+    <Compile Include="Assets\Scrips\ScoreManager.cs" />
     <Compile Include="Assets\Scrips\ShotPot.cs" />
     <None Include="Assets\mcs.rsp" />
     <None Include="Assets\Live2D\Cubism\Rendering\Resources\Live2D\Cubism\Shaders\Mask.shader" />
